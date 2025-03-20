@@ -10,13 +10,13 @@
             decimal celsius = Convert.ToDecimal(Console.ReadLine());
            
             decimal fahrenheit =0;
-            decimal resultado = 0;
+            
             decimal valorApoio = 1.8m;
             
 
-            resultado = fahrenheit = celsius * valorApoio + 32;
+             fahrenheit = celsius * valorApoio + 32;
 
-            Console.WriteLine(resultado);
+            Console.WriteLine(fahrenheit);
 
 
         }
